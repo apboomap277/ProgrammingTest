@@ -34,7 +34,7 @@ public class User implements IUser {
     @Override
     public boolean isPasswordCorrect(String password) {
         String tmp = "[A-Za-z0-9]{12,}";
-        if (password == null) throw new RuntimeException("Not known.");
+        if (password == null) throw new RuntimeException("Not true.");
         if (password.matches(tmp)){
             return true;
         }else {
