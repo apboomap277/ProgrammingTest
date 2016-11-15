@@ -6,9 +6,8 @@ public class Users {
 
     // Create new user with type, name and password
     // user created with this method should be automatically added to userList;
-    public IUser create(int type, String name, String password)
-    {
-        return null;
+    public IUser create(int type, String name, String password) {
+       return null;
     }
 
     // Add new user to repository
