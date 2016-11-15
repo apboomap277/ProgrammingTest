@@ -4,9 +4,9 @@ public class User implements IUser {
     private int typ;
 
     public User(int type, String name,String password){
-        this.typ = type;
-        this.name = name;
-        this.password = password;
+        setTyp(type);
+        setName(name);
+        setPassword(password);
     }
 
     @Override
